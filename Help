@@ -1,5 +1,6 @@
 For installing c version of iClass (linux):
 
+install gcc in your distro
 git clone https://github.com/Dowin452/iClass
 cd iClass
 gcc iclass.c -o iclass -lncurses
