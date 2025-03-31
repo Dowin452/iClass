@@ -1,0 +1,22 @@
+For installing c version of iClass (linux):
+
+git clone https://github.com/Dowin452/iClass
+cd iClass
+gcc iclass.c -o iclass -lncurses
+sudo mv iclass /usr/local/bin/
+
+and you can run it by : iclass
+
+
+++++
+
+
+For installing Python version of iClass (linux):
+
+1 : install the python package in your distro
+2 : install git
+3 : pip install curses (if you don't have it)
+4 : git clone https://github.com/Dowin452/iClass
+5 : cd iClass
+6 : chmod +x iclass.py
+7 : ./iclass
